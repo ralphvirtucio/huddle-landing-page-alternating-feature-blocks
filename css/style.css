@@ -40,6 +40,10 @@ body {
 }
 
 /* A elements that don't have a class get default styles */
+a {
+  text-decoration: none;
+}
+
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
@@ -72,6 +76,69 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+.heading {
+  color: hsl(192deg, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+}
+.heading--main {
+  margin-bottom: 2rem;
+}
+
+.huddle__message {
+  font-family: "Open Sans", sans-serif;
+}
+.huddle__message--introductory {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border-radius: 100px;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.btn--try-it {
+  color: hsl(192deg, 100%, 9%);
+  font-weight: 700;
+  font-size: 0.6rem;
+  padding: 0.25rem 1rem;
+  background-color: #fff;
+}
+.btn--get-started {
+  background-color: hsl(322deg, 100%, 66%);
+  color: hsl(193deg, 100%, 96%);
+  padding: 0.5rem 4rem;
+  font-size: 0.8rem;
+}
+.btn--get-started-introductory {
+  display: inline-block;
+  margin-bottom: 5rem;
+}
+
+.huddle__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.huddle__header--logo {
+  width: 30%;
+}
+
+.huddle__introductory {
+  text-align: center;
+  padding: 1.25rem;
+}
+
+body {
+  padding: 1rem;
+}
+
+.huddle__introductory-bg {
+  background-image: url("../../images/bg-hero-mobile.svg");
+  background-color: hsl(193deg, 100%, 96%);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */

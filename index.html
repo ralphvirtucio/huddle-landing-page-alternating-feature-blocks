@@ -24,30 +24,28 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- HEADER -->
-    <header class="huddle__header">
-      <img
-        src="./images/logo.svg"
-        alt="Logo of Huddle"
-        class="huddle__logo--header"
-      />
-      <a href="#" class="btn btn--try-it">Try it Free</a>
-    </header>
-
-    <!-- MAIN CONTENT -->
-    <main class="huddle__main">
-      <!-- INTRODUCTORY SECTION -->
+    <!-- The purpose of this div element is for background -->
+    <div class="huddle__introductory-bg">
+      <!-- HEADER -->
+      <header class="huddle__header">
+        <img
+          src="./images/logo.svg"
+          alt="Logo of Huddle"
+          class="huddle__header--logo"
+        />
+        <a href="#" class="btn btn--try-it">Try it Free</a>
+      </header>
       <section class="huddle__introductory">
         <div class="huddle__introductory--content">
           <h1 class="heading heading--main">
             Build The Community Your Fans Will Love
           </h1>
-          <p class="huddle__introductory--message">
+          <p class="huddle__message huddle__message--introductory">
             Huddle re-imagines the way we build communities. You have a voice,
             but so does your audience. Create connections with your users as you
             engage in genuine discussion.
           </p>
-          <a href="#" class="btn btn--get-started btn--introductory"
+          <a href="#" class="btn btn--get-started btn--get-started-introductory"
             >Get Started For Free</a
           >
         </div>
@@ -57,9 +55,13 @@
           alt="desktop and mobile mockups"
         />
       </section>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main class="huddle__main">
+      <!-- INTRODUCTORY SECTION -->
 
       <!-- HERO SECTION THREE ROW -->
-
       <section class="huddle__hero">
         <!-- HERO FIRST ROW --CAN BE REUSABLE COMPONENT-- -->
         <div class="huddle__hero--features">

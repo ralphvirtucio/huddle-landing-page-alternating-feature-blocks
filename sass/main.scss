@@ -3,4 +3,9 @@
 @import './base/reset';
 @import './base/typography';
 
+@import './components/button';
+
+@import './layout/header';
+@import './layout/introductory';
+
 @import './pages/home.scss';

@@ -1,0 +1,18 @@
+.heading {
+  color: $neutral-color-2;
+  font-family: $font-headings;
+
+  &--main {
+    // padding: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.huddle__message {
+  font-family: $font-body;
+
+  &--introductory {
+    // padding: 0 1.25rem;
+    margin-bottom: 2rem;
+  }
+}
