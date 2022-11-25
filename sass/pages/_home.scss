@@ -1,10 +1,7 @@
-body {
-  padding: 1rem;
-}
-
 .huddle__introductory-bg {
-  background-image: url('../../images/bg-hero-mobile.svg');
-  background-color: $neutral-color-1;
+  background: url('../../images/bg-hero-mobile.svg'), $neutral-color-1;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 1rem;
+  margin-bottom: 5rem;
 }

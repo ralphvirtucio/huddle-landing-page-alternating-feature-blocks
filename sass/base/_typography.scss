@@ -6,6 +6,10 @@
     // padding: 1rem;
     margin-bottom: 2rem;
   }
+
+  &--sub {
+    margin-bottom: 1rem;
+  }
 }
 
 .huddle__message {
@@ -14,5 +18,11 @@
   &--introductory {
     // padding: 0 1.25rem;
     margin-bottom: 2rem;
+    color: $neutral-color-2;
+  }
+
+  &--hero {
+    color: $neutral-color-3;
+    width: 31ch;
   }
 }

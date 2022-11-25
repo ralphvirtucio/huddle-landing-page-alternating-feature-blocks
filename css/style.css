@@ -84,12 +84,20 @@ select {
 .heading--main {
   margin-bottom: 2rem;
 }
+.heading--sub {
+  margin-bottom: 1rem;
+}
 
 .huddle__message {
   font-family: "Open Sans", sans-serif;
 }
 .huddle__message--introductory {
   margin-bottom: 2rem;
+  color: hsl(192deg, 100%, 9%);
+}
+.huddle__message--hero {
+  color: hsl(208deg, 11%, 55%);
+  width: 31ch;
 }
 
 .btn {
@@ -126,19 +134,40 @@ select {
 }
 
 .huddle__introductory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   padding: 1.25rem;
 }
 
-body {
+.huddle__main {
   padding: 1rem;
 }
 
+.huddle__hero {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.huddle__hero--features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  place-items: center;
+  text-align: center;
+  gap: 5rem;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 4rem 1rem;
+}
+
 .huddle__introductory-bg {
-  background-image: url("../../images/bg-hero-mobile.svg");
-  background-color: hsl(193deg, 100%, 96%);
+  background: url("../../images/bg-hero-mobile.svg"), hsl(193deg, 100%, 96%);
   background-repeat: no-repeat;
   background-position: center;
+  padding: 1rem;
+  margin-bottom: 5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
