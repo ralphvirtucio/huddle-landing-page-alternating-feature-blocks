@@ -87,6 +87,10 @@ select {
 .heading--sub {
   margin-bottom: 1rem;
 }
+.heading--tertiary {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
 
 .huddle__message {
   font-family: "Open Sans", sans-serif;
@@ -122,15 +126,35 @@ select {
   display: inline-block;
   margin-bottom: 5rem;
 }
+.btn--cta {
+  padding: 0.85rem 3rem;
+}
+
+.huddle__cta {
+  position: absolute;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem 0.8rem;
+  margin: 0 1rem;
+  border-radius: 12px;
+  top: 2056px;
+  left: 0px;
+  z-index: 1;
+}
 
 .huddle__header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 5rem;
 }
 .huddle__header--logo {
   width: 30%;
+  margin-right: auto;
 }
 
 .huddle__introductory {
@@ -143,6 +167,8 @@ select {
 
 .huddle__main {
   padding: 1rem;
+  margin-bottom: 15rem;
+  position: relative;
 }
 
 .huddle__hero {
@@ -151,15 +177,23 @@ select {
   gap: 2rem;
 }
 .huddle__hero--features {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  place-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  flex: 1 1 150px;
   gap: 5rem;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   background-color: #fff;
   padding: 4rem 1rem;
+}
+
+.huddle__footer {
+  background-color: hsl(192deg, 100%, 9%);
+  color: #fff;
+  padding: 8rem 1rem 2rem 1rem;
 }
 
 .huddle__introductory-bg {
