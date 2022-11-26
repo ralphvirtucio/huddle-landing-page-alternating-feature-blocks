@@ -105,6 +105,10 @@ select {
   width: 31ch;
 }
 
+.copyright {
+  font-family: "Open Sans", sans-serif;
+}
+
 .btn {
   border-radius: 100px;
   font-family: "Open Sans", sans-serif;
@@ -146,6 +150,44 @@ select {
   top: 2056px;
   left: 0px;
   z-index: 1;
+}
+
+.huddle__site-map--list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.huddle__site-map--list-item a:link,
+.huddle__site-map--list-item a:visited {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.social-media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 0.5rem;
+}
+.social-media-link svg {
+  width: 1rem;
+  height: 1rem;
+  fill: #fff;
 }
 
 .huddle__header {
@@ -195,10 +237,37 @@ select {
 .huddle__footer {
   background-color: hsl(192deg, 100%, 9%);
   color: #fff;
-  padding: 8rem 1rem 2rem 1rem;
+  padding: 8rem 1rem 3rem 1rem;
   display: flex;
   flex-flow: row wrap;
 }
+.huddle__footer--logo {
+  margin-bottom: 1rem;
+}
+.huddle__footer--infos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 4rem;
+  font-size: 1.055rem;
+}
+.huddle__footer--info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.huddle__footer--info-location img {
+  align-self: flex-start;
+  padding-top: 0.2rem;
+}
+
+.copyright {
+  margin: 0 auto;
+  font-size: 0.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
 .huddle__introductory-bg {
   background: url("../../images/bg-hero-mobile.svg"), hsl(193deg, 100%, 96%);
   background-repeat: no-repeat;
