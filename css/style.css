@@ -199,7 +199,6 @@ select {
   display: flex;
   flex-flow: row wrap;
 }
-
 .huddle__introductory-bg {
   background: url("../../images/bg-hero-mobile.svg"), hsl(193deg, 100%, 96%);
   background-repeat: no-repeat;
