@@ -1,20 +1,18 @@
-// .huddle__site-map {
-//   &--list {
-//     padding: 0;
-//     margin: 0;
-//     list-style: none;
-//     display: flex;
-//     flex-direction: column;
-//     gap: 1rem;
-//     justify-content: center;
-//     margin-bottom: 4rem;
+.site-map {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 4rem;
 
-//     &-item {
-//       a:link,
-//       a:visited {
-//         font-family: $font-body;
-//         color: #fff;
-//       }
-//     }
-//   }
-// }
+  &__list-item {
+    a:link,
+    a:visited {
+      font-family: $font-body;
+      color: #fff;
+    }
+  }
+}
