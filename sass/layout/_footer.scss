@@ -2,39 +2,52 @@
   background-color: $neutral-color-2;
   color: #fff;
   padding: 8rem 1rem 3rem 1rem;
-  display: flex;
-  flex-flow: row wrap;
 
+  &--col-1 {
+    display: flex;
+    flex-direction: column;
+  }
   &--logo {
     svg {
-      // HUDDLE LOGO FOOTER ISSUE
-      // width: 80%;
+      height: auto;
+      width: 8rem;
     }
     margin-bottom: 1rem;
   }
-
-  &--infos {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    font-family: $font-body;
-    margin-bottom: 4rem;
-    font-size: 1.055rem;
-  }
-
-  &--info {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-
-    &-location {
-      img {
-        align-self: flex-start;
-        padding-top: 0.2rem;
-      }
-    }
-  }
 }
+
+.huddle__contact-info {
+}
+//   &--logo {
+//     svg {
+//       height: auto;
+//       width: 10rem;
+//     }
+//     margin-bottom: 1rem;
+//   }
+
+//   &--infos {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 2rem;
+//     font-family: $font-body;
+//     margin-bottom: 4rem;
+//     font-size: 1.055rem;
+//   }
+
+//   &--info {
+//     display: flex;
+//     align-items: center;
+//     gap: 1rem;
+
+//     &-location {
+//       img {
+//         align-self: flex-start;
+//         padding-top: 0.2rem;
+//       }
+//     }
+//   }
+// }
 
 .copyright {
   margin: 0 auto;

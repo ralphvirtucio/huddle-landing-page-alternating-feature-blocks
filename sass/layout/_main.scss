@@ -1,7 +1,6 @@
 .huddle__main {
   padding: 1rem;
-  margin-bottom: 15rem;
-  position: relative;
+  margin-bottom: 1rem;
 }
 
 .huddle__hero {
@@ -9,18 +8,11 @@
   flex-direction: column;
   gap: 2rem;
 
-  // grid-template-columns is for temporary style. !!!
-
   &--illustration {
     width: 90%;
   }
 
   &--features {
-    // display: flex;
-    // flex-flow: row wrap;
-    // justify-content: center;
-    // align-items: center;
-    // flex: 1 1 100px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     place-items: center;
