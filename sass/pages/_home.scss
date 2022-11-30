@@ -4,4 +4,9 @@
   background-position: center;
   padding: 1rem;
   margin-bottom: 5rem;
+
+  @media only screen and (min-width: 1024px) {
+    background: url('../../images/bg-hero-desktop.svg'), $neutral-color-1;
+    padding: 0 5rem 5rem 5rem;
+  }
 }

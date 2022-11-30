@@ -83,7 +83,12 @@ select {
 }
 .heading--main {
   margin-bottom: 2rem;
-  font-weight: 600;
+}
+@media only screen and (min-width: 1024px) {
+  .heading--main {
+    font-size: 3.5rem;
+    width: 20ch;
+  }
 }
 .heading--sub {
   margin-bottom: 1rem;
@@ -99,6 +104,11 @@ select {
 .huddle__message--introductory {
   margin-bottom: 2rem;
   color: hsl(192deg, 100%, 9%);
+}
+@media only screen and (min-width: 1024px) {
+  .huddle__message--introductory {
+    font-size: 1.125rem;
+  }
 }
 .huddle__message--hero {
   color: hsl(208deg, 11%, 55%);
@@ -117,6 +127,12 @@ select {
   padding: 0.25rem 1rem;
   background-color: #fff;
 }
+@media only screen and (min-width: 1024px) {
+  .btn--try-it {
+    padding: 0.5rem 3.5rem;
+    font-size: 0.75rem;
+  }
+}
 .btn--get-started {
   background-color: hsl(322deg, 100%, 66%);
   color: hsl(193deg, 100%, 96%);
@@ -126,6 +142,11 @@ select {
 .btn--get-started-introductory {
   display: inline-block;
   margin-bottom: 5rem;
+}
+@media only screen and (min-width: 1024px) {
+  .btn--get-started-introductory {
+    font-size: 1rem;
+  }
 }
 .btn--cta {
   padding: 0.85rem 3rem;
@@ -189,17 +210,32 @@ select {
   margin-bottom: 5rem;
   padding-top: 1rem;
 }
+@media only screen and (min-width: 1024px) {
+  .huddle__header {
+    padding-top: 3rem;
+  }
+}
 .huddle__header--logo {
   width: 30%;
   margin-right: auto;
 }
+@media only screen and (min-width: 1024px) {
+  .huddle__header--logo {
+    width: 15%;
+  }
+}
 
 .huddle__introductory {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  place-items: center;
+  column-gap: 10rem;
   padding: 1.25rem;
+}
+@media only screen and (min-width: 1024px) {
+  .huddle__introductory {
+    padding: 0;
+  }
 }
 
 .huddle__main {
@@ -274,6 +310,12 @@ select {
   background-position: center;
   padding: 1rem;
   margin-bottom: 5rem;
+}
+@media only screen and (min-width: 1024px) {
+  .huddle__introductory-bg {
+    background: url("../../images/bg-hero-desktop.svg"), hsl(193deg, 100%, 96%);
+    padding: 0 5rem 5rem 5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

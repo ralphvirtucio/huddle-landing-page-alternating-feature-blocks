@@ -4,7 +4,11 @@
 
   &--main {
     margin-bottom: 2rem;
-    font-weight: 600;
+
+    @media only screen and (min-width: 1024px) {
+      font-size: 3.5rem;
+      width: 20ch;
+    }
   }
 
   &--sub {
@@ -22,6 +26,10 @@
   &--introductory {
     margin-bottom: 2rem;
     color: $neutral-color-2;
+
+    @media only screen and (min-width: 1024px) {
+      font-size: $font-size-body;
+    }
   }
 
   &--hero {

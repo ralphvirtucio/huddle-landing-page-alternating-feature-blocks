@@ -8,6 +8,11 @@
     font-size: 0.6rem;
     padding: 0.25rem 1rem;
     background-color: #fff;
+
+    @media only screen and (min-width: 1024px) {
+      padding: 0.5rem 3.5rem;
+      font-size: 0.75rem;
+    }
   }
 
   &--get-started {
@@ -19,6 +24,10 @@
     &-introductory {
       display: inline-block;
       margin-bottom: 5rem;
+
+      @media only screen and (min-width: 1024px) {
+        font-size: 1rem;
+      }
     }
   }
 

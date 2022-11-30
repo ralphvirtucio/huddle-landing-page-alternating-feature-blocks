@@ -4,8 +4,16 @@
   margin-bottom: 5rem;
   padding-top: 1rem;
 
+  @media only screen and (min-width: 1024px) {
+    padding-top: 3rem;
+  }
+
   &--logo {
     width: 30%;
     margin-right: auto;
+
+    @media only screen and (min-width: 1024px) {
+      width: 15%;
+    }
   }
 }
