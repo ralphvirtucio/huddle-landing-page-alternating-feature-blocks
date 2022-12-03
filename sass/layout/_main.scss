@@ -1,3 +1,5 @@
+// TODO desktop design
+
 .huddle__main {
   padding: 1rem;
   margin-bottom: 1rem;
@@ -22,5 +24,11 @@
     border-radius: 12px;
     background-color: #fff;
     padding: 4rem 1rem;
+  }
+}
+
+.--flex-reverse {
+  @media only screen and (min-width: 1024px) {
+    flex-direction: row-reverse;
   }
 }
