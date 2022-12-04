@@ -93,6 +93,11 @@ select {
 .heading--sub {
   margin-bottom: 1rem;
 }
+@media only screen and (min-width: 1024px) {
+  .heading--sub {
+    font-size: 2rem;
+  }
+}
 .heading--tertiary {
   margin-bottom: 1.25rem;
   font-size: 1.125rem;
@@ -117,6 +122,7 @@ select {
 @media only screen and (min-width: 1024px) {
   .huddle__message--hero {
     width: 50ch;
+    font-size: 1.125rem;
   }
 }
 

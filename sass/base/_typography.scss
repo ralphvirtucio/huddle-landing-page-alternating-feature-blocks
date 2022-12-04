@@ -13,6 +13,10 @@
 
   &--sub {
     margin-bottom: 1rem;
+
+    @media only screen and (min-width: 1024px) {
+      font-size: 2rem;
+    }
   }
   &--tertiary {
     margin-bottom: 1.25rem;
@@ -38,6 +42,7 @@
 
     @media only screen and (min-width: 1024px) {
       width: 50ch;
+      font-size: $font-size-body;
     }
   }
 }
