@@ -5,6 +5,11 @@
   gap: 1rem;
   margin-bottom: 2rem;
 
+  @media only screen and (min-width: 1024px) {
+    margin-bottom: 9rem;
+    margin-right: auto;
+  }
+
   &-link {
     display: flex;
     justify-content: center;
@@ -13,11 +18,20 @@
     border: 1px solid #fff;
     border-radius: 100px;
     padding: 0.5rem;
+    transition: all 0.2s;
 
-    svg {
-      width: 1rem;
-      height: 1rem;
-      fill: #fff;
+    &:hover {
+      border: 1px solid $primary-color-1;
     }
+
+    &:hover svg {
+      fill: $primary-color-1;
+    }
+  }
+
+  svg {
+    width: 1rem;
+    height: 1rem;
+    fill: #fff;
   }
 }

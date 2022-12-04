@@ -2,11 +2,26 @@
   background-color: $neutral-color-2;
   color: #fff;
   padding: 8rem 1rem 3rem 1rem;
+  display: grid;
+  // display: flex;
+  // flex-direction: column;
+
+  @media only screen and (min-width: 1024px) {
+    // flex-direction: row;
+    // justify-content: space-around;
+    // align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
 
   &--col-1 {
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
+
+    @media only screen and (min-width: 1024px) {
+      width: 60%;
+    }
   }
   &--logo {
     svg {
@@ -43,4 +58,9 @@
   text-align: center;
   font-size: 0.75rem;
   font-family: $font-body;
+
+  @media only screen and (min-width: 1024px) {
+    grid-column: 3 / span 3;
+    margin-right: auto;
+  }
 }

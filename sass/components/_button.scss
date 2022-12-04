@@ -2,16 +2,22 @@
   border-radius: 100px;
   font-family: $font-body;
   box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.15);
+
   &--try-it {
     color: $neutral-color-2;
     font-weight: 700;
     font-size: 0.6rem;
     padding: 0.25rem 1rem;
     background-color: #fff;
+    transition: all 0.2s;
 
     @media only screen and (min-width: 1024px) {
-      padding: 0.5rem 3.5rem;
+      padding: 0.85rem 3.5rem;
       font-size: 0.75rem;
+    }
+
+    &:hover {
+      transform: translateY(-15%);
     }
   }
 
@@ -20,6 +26,7 @@
     color: $neutral-color-1;
     padding: 0.85rem 4rem;
     font-size: 0.8rem;
+    transition: background-color 0.2s;
 
     &-introductory {
       display: inline-block;
@@ -28,6 +35,10 @@
       @media only screen and (min-width: 1024px) {
         font-size: 1rem;
       }
+    }
+
+    &:hover {
+      background-color: lighten($primary-color-1, 15%);
     }
   }
 
