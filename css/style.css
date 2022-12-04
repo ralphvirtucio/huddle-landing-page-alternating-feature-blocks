@@ -102,6 +102,11 @@ select {
   margin-bottom: 1.25rem;
   font-size: 1.125rem;
 }
+@media only screen and (min-width: 1024px) {
+  .heading--tertiary {
+    font-size: 1.5rem;
+  }
+}
 
 .huddle__message {
   font-family: "Open Sans", sans-serif;
@@ -165,7 +170,7 @@ select {
 
 .huddle__cta {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -175,6 +180,12 @@ select {
   border-radius: 12px;
   z-index: 1;
   transform: translateY(50%);
+}
+@media only screen and (min-width: 1024px) {
+  .huddle__cta {
+    width: 40%;
+    margin: 0 auto;
+  }
 }
 
 .site-map {
