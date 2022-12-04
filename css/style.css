@@ -285,7 +285,7 @@ select {
 @media only screen and (min-width: 1024px) {
   .huddle__introductory {
     padding: 0;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
 }
